@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Time Master</string>
+    <!-- Strings for Employee Activity -->
+    <string name="add_employee_button">Add Employee</string>
+    <string name="view_employee_button">Employee Catalog</string>
+    <string name="employee_first_name">Enter First Name</string>
+    <string name="employee_last_name">Enter Last Name</string>
+    <string name="employee_nick_name">Enter Nickname</string>
+    <string name="employee_email">Enter Email</string>
+    <string name="employee_phone_number">Enter Phone Number</string>
+    <!-- String Array for Qualifications -->
+    <string-array name="qualifications">
+        <item>Closing</item>
+        <item>Opening</item>
+        <item>Opening and Closing</item>
+    </string-array>
+    <!-- Strings for View Employees Activity/Page -->
+    <string name="view_full_name">Employee Full Name</string>
+    <string name="view_email">Email</string>
+    <string name="view_phone_number">Phone Number</string>
+    <string name="view_qualification">Qualification</string>
+    <!-- Strings for Employee Editing Activity -->
+    <string name="edit_employee_button">Save Changes</string>
+    <string name="archive_employee_button">Archive Employee</string>
+    <!-- Strings for days -->
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string name="sunday">SUN</string>
+    <!-- Strings for the time of day -->
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="weekends">Weekends</string>
+    <!-- Strings for calendar stuff -->
+    <string name="morning_shift">Morning Shift +</string>
+    <string name="afternoon_shift">Afternoon Shift +</string>
+    <string name="weekend_shift">Weekend Full Shift +</string>
+    <string name="schedule_employee">Assign Shift</string>
+    <string name="schedule_employee_choose">Select an Employee</string>
+    <string name="go_back">Go Back</string>
+    <!-- Strings for shift preview -->
+    <string name="preview_morning_shift">Morning Shift</string>
+    <string name="preview_afternoon_shift">Afternoon Shift</string>
+    <string name="preview_weekend_shift">Weekend Shift</string>
+
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+</resources>

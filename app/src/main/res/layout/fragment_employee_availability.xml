@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.employee.fragments.EmployeeAvailabilityFragment"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ToggleButton
+        android:id="@+id/AvailButton_1"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:tag="morn_mon"
+        android:textOff="@string/monday"
+        android:textOn="@string/monday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MorningText" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_2"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:tag="morn_tue"
+        android:textOff="@string/tuesday"
+        android:textOn="@string/tuesday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_1"
+        app:layout_constraintTop_toBottomOf="@+id/MorningText" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_3"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:tag="morn_wed"
+        android:textOff="@string/wednesday"
+        android:textOn="@string/wednesday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_2"
+        app:layout_constraintTop_toBottomOf="@+id/MorningText" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_4"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:tag="morn_thu"
+        android:textOff="@string/thursday"
+        android:textOn="@string/thursday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_3"
+        app:layout_constraintTop_toBottomOf="@+id/MorningText" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_5"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:tag="morn_fri"
+        android:textOff="@string/friday"
+        android:textOn="@string/friday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_4"
+        app:layout_constraintTop_toBottomOf="@+id/MorningText" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_6"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:tag="aftr_mon"
+        android:textOff="@string/monday"
+        android:textOn="@string/monday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AfternoonText" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_7"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:tag="aftr_tue"
+        android:textOff="@string/tuesday"
+        android:textOn="@string/tuesday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_6"
+        app:layout_constraintTop_toTopOf="@+id/AvailButton_6" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_8"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:tag="aftr_wed"
+        android:textOff="@string/wednesday"
+        android:textOn="@string/wednesday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_7"
+        app:layout_constraintTop_toTopOf="@+id/AvailButton_7" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_9"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:tag="aftr_thu"
+        android:textOff="@string/thursday"
+        android:textOn="@string/thursday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_8"
+        app:layout_constraintTop_toTopOf="@+id/AvailButton_8" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_10"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:tag="aftr_fri"
+        android:textOff="@string/friday"
+        android:textOn="@string/friday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_9"
+        app:layout_constraintTop_toTopOf="@+id/AvailButton_9" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_11"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:tag="saturday"
+        android:textOff="@string/saturday"
+        android:textOn="@string/saturday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WeekendsText" />
+
+    <ToggleButton
+        android:id="@+id/AvailButton_12"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:tag="sunday"
+        android:textOff="@string/sunday"
+        android:textOn="@string/sunday"
+        app:layout_constraintStart_toEndOf="@+id/AvailButton_11"
+        app:layout_constraintTop_toTopOf="@+id/AvailButton_11" />
+
+
+    <TextView
+        android:id="@+id/MorningText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/morning"
+        android:textSize="17dp"
+        android:textColor="@color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/WeekendsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/weekends"
+        android:textSize="17dp"
+        android:textColor="@color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AvailButton_6" />
+
+    <TextView
+        android:id="@+id/AfternoonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/afternoon"
+        android:textSize="17dp"
+        android:textColor="@color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AvailButton_1" />
+
+    <Button
+        android:id="@+id/EditEmployeeFromAvailability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:text="@string/edit_employee_button"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WeekendsText" />
+
+    <Button
+        android:id="@+id/ArchiveEmployeeFromAvailability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/archive_employee_button"
+        android:visibility="visible"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditEmployeeFromAvailability" />
+
+    <Button
+        android:id="@+id/AddEmployeeFromAvailability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="166dp"
+        android:text="@string/add_employee_button"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WeekendsText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
